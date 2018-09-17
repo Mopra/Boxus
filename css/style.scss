@@ -1,10 +1,16 @@
+@import 'partials/clear';
+@import 'partials/common';
+@import 'partials/carouFredSel';
+@import 'partials/prettyPhoto';
+@import 'partials/sm-clean';
+
 body
 {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
-    color: #23214c;    
+    //color: #23214c;    
 }
 
 body a
@@ -27,7 +33,7 @@ body a:hover
     width: 100%;
     height: 100%;
     z-index: 99999;	
-    background-color: #fff;
+    background-color: #fbfbfb;
 }
 
 .doc-loader td 
@@ -68,7 +74,7 @@ body a:hover
 {    
     transition: background-color .2s linear;
     z-index: 99 !important;
-    background-color: #221C5A;
+    background-color: #0c1920;
     width: 100% !important;
     top: 0;
     position: fixed;
@@ -221,7 +227,7 @@ body a:hover
     line-height: 100%;
     text-transform: uppercase;
     margin-top: -75px;
-    color: #221c5a;    
+    color: #0c1920;    
 }
 
 .extra-content-left
@@ -261,10 +267,10 @@ body a:hover
     min-height: calc(100vh - 170px);
     background:  
     linear-gradient(
-      rgba(34, 28, 90, 0.96), 
-      rgba(34, 28, 90, 0.78)
+      rgba(12, 25, 32, 0.96), 
+      rgba(12, 25, 32, 0.78)
     ),
-    url(images/content/header.png);
+    url(../images/content/header.png);
     background-repeat: repeat; 
     background-position: center top; 
     background-size: cover;
@@ -321,18 +327,18 @@ h1.big-title
 
 #services
 {
-    background-color: #221c5a;
+    background-color: #0c1920;
     z-index: 9;
 }
 
 #services .section-title-holder
 {
-    background-color: #32DB8A
+    background-color: #009688;
 }
 
 #services .section-title-holder span
 {
-    color: #55B286;
+    color: #00796b;
 }
 
 .service-holder 
@@ -371,8 +377,8 @@ h1.big-title
 
 #portfolio
 {
-    background-color: #221C5A; 
-    background-image: url("demo-images/background_img_02.jpg"); 
+    background-color: #0c1920;
+    background-image: url("../demo-images/background_img_02.png"); 
     background-repeat: no-repeat; 
     background-position: center top; 
     background-size: auto;
@@ -381,12 +387,12 @@ h1.big-title
 
 #portfolio .section-title-holder
 {
-    background-color: rgb(255, 186, 66);
+    background-color: #0277bd;
 }
 
 #portfolio .section-title-holder span
 {
-    color: #e3a436;
+    color: #01579b;
 }
 
 .page-template-page-portfolio .section
@@ -568,8 +574,8 @@ div.pp_default .pp_loaderIcon
 
 #about
 {
-    background-color: rgb(34, 28, 90); 
-    background-image: url("demo-images/background_img_03.jpg"); 
+    background-color: #0c1920;
+    background-image: url("../demo-images/background_img_03.png"); 
     background-repeat: no-repeat; 
     background-position: center top; 
     background-size: cover; 
@@ -643,8 +649,8 @@ div.pp_default .pp_loaderIcon
 
 #news
 {
-    background-color: rgb(34, 28, 90); 
-    background-image: url("demo-images/background_img_04.jpg"); 
+    background-color: #0c1920; 
+    background-image: url("../demo-images/background_img_04.png"); 
     background-repeat: no-repeat; 
     background-position: center center; 
     background-size: cover; 
@@ -754,8 +760,8 @@ div.pp_default .pp_loaderIcon
 
 #video
 {
-    background-color: rgb(34, 28, 90); 
-    background-image: url("demo-images/background_img_06.jpg"); 
+    background-color: #0c1920;
+    background-image: url("../demo-images/background_img_06.png"); 
     background-repeat: repeat-x; 
     background-position: center center; 
     background-size: auto; 
@@ -814,8 +820,8 @@ a.video-popup-holder:hover img.popup-play
 
 #skills
 {
-    background-color: rgb(34, 28, 90); 
-    background-image: url("demo-images/item_background_01.jpg"); 
+    background-color: #0c1920; 
+    background-image: url("../demo-images/item_background_01.png"); 
     background-repeat: no-repeat; 
     background-position: left top; 
     background-size: 100%; 
@@ -892,8 +898,8 @@ a.video-popup-holder:hover img.popup-play
 
 #contact
 {
-    background-color: rgb(34, 28, 90); 
-    background-image: url("demo-images/background_img_05b.jpg"); 
+    background-color: #0c1920;
+    background-image: url("../demo-images/background_img_05b.png"); 
     background-repeat: no-repeat; 
     background-position: center top; 
     background-size: auto; 
@@ -1038,7 +1044,7 @@ p.custom-field-class
     margin-top: 30px;
     vertical-align: middle;
     text-decoration: none;
-    background: transparent;
+    background-color: #0c1920;
     font-family: 'Roboto', sans-serif;
     width: 100%;
     text-transform: uppercase;
@@ -1071,7 +1077,7 @@ span.contact-form-not-valid-tip
 
 footer
 {
-    background-color: #221C5A;
+    background-color: #0c1920;
 }
 
 .footer
@@ -1114,7 +1120,7 @@ footer
 #portfolio-1
 {
     background-color: #221c5a;
-    background-image:url("demo-images/background_img_05b.jpg"); 
+    background-image:url("../demo-images/background_img_05b.png"); 
     background-repeat: no-repeat;
     background-position: center top;
     background-size: auto; 
@@ -1124,7 +1130,7 @@ footer
 {
 
     background-color: #221c5a;
-    background-image: url(demo-images/item_background_01.jpg);
+    background-image: url(../demo-images/item_background_01.png);
     background-repeat: no-repeat;
     background-position: left top;
     background-size: 100% auto;
@@ -1704,5 +1710,28 @@ footer
     .image-slider-wrapper.service a.image_slider_next 
     {
         top: -84px;
+    }
+}
+
+
+#reachOut {
+    ul {
+        margin:20px 0;
+        li { margin:5px 0; }
+        &:first-child {
+            li {
+                &:first-child {
+                    font-size:1.5rem;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+        &:last-child {
+            li {
+                display:inline;
+                float:left;
+                font-size: 2rem;
+            }
+        }
     }
 }
